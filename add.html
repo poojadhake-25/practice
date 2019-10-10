@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="number" id="value1" placeholder="Enter 1st value"/><br>
+
+    <input type="number" id="value2" placeholder="Enter 2nd value"/><br>
+
+<button type="button" onclick="add()"> add</button><br>
+        addition<p id="demo"></p>
+       subtraction <p id="demo1"></p>
+       multipllication <p id="demo2"></p>
+        division<p id="demo3"></p>
+   <script>
+function add(){
+var a=parseInt(document.getElementById("value1").value);
+var b=parseInt(document.getElementById("value2").value);
+
+
+var c =a + b;
+
+var d=a-b;
+var e=a*b;
+var f=a/d;
+
+document.getElementById("demo").innerHTML = c;
+document.getElementById("demo1").innerHTML = d;
+document.getElementById("demo2").innerHTML = e;
+document.getElementById("demo3").innerHTML = f;
+}</script>
+
+
+
+</body>
+</html>
+</body>
+</html>
